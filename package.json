@@ -1,0 +1,15 @@
+{
+  "name": "geekweek_2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "decktape": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "generate": "decktape http://localhost:65152 presentation.pdf"
+  },
+  "author": "Alexey Kuznetsov <me@kuznetsoff.io>",
+  "license": "ISC"
+}
